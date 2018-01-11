@@ -37,7 +37,7 @@ namespace ConsoleApplication1
             string str = "";
             for (int i = 0; i < 200000; i++)
             {
-                str += "aaaaa";
+                str += "bbbbbbb";
             }
             Console.WriteLine((DateTime.Now - dt).TotalMilliseconds);
 
